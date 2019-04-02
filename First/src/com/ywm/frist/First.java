@@ -14,14 +14,20 @@ public class First {
 //        int cardId = scanner.nextInt();
 //        System.out.println(cardId);
         String result = "你猜";
+        System.out.print("请输入值:");
         String str = scanner.next();
-        if (result.equals(str)){
-            System.out.println("我不猜");
-        }else{
-            while(!str.equals("你猜")){
-                System.out.println("再输入");
+        while(!result.equals(str)){
+            if(result.equals(str)){
+                scanner.close();
+                System.out.println("我就不猜");
+            }else{
+                System.out.print("输入的是"+str);
+                System.out.print("再次输入:");
+                str = scanner.next();
             }
-            System.out.println("哈哈 ");
         }
+        scanner.close();
+        System.out.print("我就不猜");
+
     }
 }
