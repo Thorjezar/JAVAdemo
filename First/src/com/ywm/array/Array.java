@@ -47,9 +47,8 @@ public class Array {
                 }
             }
         }
-//        Arrays.sort(array);
-        for (int k:array
-             ) {
+        // Arrays.sort(array);
+        for (int k:array) {
             System.out.print(k+"\t");
         }
     }
