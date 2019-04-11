@@ -40,5 +40,6 @@ public class Main {
         String level = teacher.level(70);
         System.out.println(level);
         System.out.println(teacher);
+        teacher.test(teacher);
     }
 }

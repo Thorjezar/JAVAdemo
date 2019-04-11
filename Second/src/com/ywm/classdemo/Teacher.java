@@ -6,7 +6,6 @@ package com.ywm.classdemo;
  */
 public class Teacher {
 
-    public String Teacher;
     public String name;
     public int age;
     public char gender;
@@ -46,14 +45,19 @@ public class Teacher {
 
     }
 
-    @Override
-    public String toString() {
+    public void test(Teacher teacher){
+        teacher = new Teacher();
+        System.out.println(teacher);
+    }
+
+//    @Override
+/*    public String toString() {
         return "Teacher{" +
                 " name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +
                 '}';
-    }
+    }*/
 
     //    GC.currentLatencyTarget()
 }
