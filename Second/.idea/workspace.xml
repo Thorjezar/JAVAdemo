@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba3ae2d8-255c-4a9d-9e83-a640a608ff1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ywm/StudentToolsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ywm/classdemo/StudentTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ywm/entity/Juicer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ywm/demo190412/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ywm/demo190412/ScoreTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ywm/demo190412/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ywm/demo190412/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +39,29 @@
     <favorites_list name="Second" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ywm/demo190412/ScoreTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ywm/demo190412/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +86,10 @@
         <option value="$PROJECT_DIR$/src/com/ywm/entity/Juicer.java" />
         <option value="$PROJECT_DIR$/src/com/ywm/classdemo/StudentTool.java" />
         <option value="$PROJECT_DIR$/src/com/ywm/StudentToolsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ywm/demo190412/Students.java" />
+        <option value="$PROJECT_DIR$/src/com/ywm/demo190412/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ywm/demo190412/ScoreTools.java" />
+        <option value="$PROJECT_DIR$/src/com/ywm/demo190412/Test.java" />
       </list>
     </option>
   </component>
@@ -116,6 +143,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ywm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Second" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ywm" type="462c0819:PsiDirectoryNode" />
+              <item name="demo190412" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StudentToolsTest">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="Juicer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ywm.entity.Juicer" />
       <module name="Second" />
@@ -161,22 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ywm.Main" />
-      <module name="Second" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ywm.entity.Student" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ywm.demo190412.Main" />
       <module name="Second" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ywm.entity.*" />
+          <option name="PATTERN" value="com.ywm.demo190412.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,6 +215,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ywm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ywm.demo190412.Test" />
+      <module name="Second" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ywm.demo190412.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.StudentToolsTest" />
         <item itemvalue="Application.Juicer" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -235,12 +273,12 @@
       <workItem from="1554795757960" duration="8831000" />
       <workItem from="1554866007011" duration="622000" />
       <workItem from="1554866646603" duration="1856000" />
-      <workItem from="1554884861033" duration="13521000" />
+      <workItem from="1554884861033" duration="15578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29545000" />
+    <option name="totallyTimeSpent" value="31602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,7 +292,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994463" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,6 +482,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ywm/demo190412/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ywm/demo190412/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ywm/demo190412/ScoreTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ywm/demo190412/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
